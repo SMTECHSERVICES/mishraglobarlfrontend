@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Company Info */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Mishra Global Solutions</h3>
-          <p className="mb-2">sister development company of SM Services, working together to deliver top software, job, and export solutions across India.</p>
+          <p className="mb-2">sister development company of SM Services, working together to deliver software solutions across India.</p>
           <p>© {new Date().getFullYear()} All Rights Reserved</p>
         </div>
 
