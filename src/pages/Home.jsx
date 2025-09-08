@@ -75,20 +75,73 @@ import Footer from "./Footer";
 
 const Home = () => {
   return (
-    <div className="bg-[#222327] text-white min-h-screen">
+ <div className="bg-[#222327] text-white min-h-screen">
+
+      {/* <section className="relative h-screen flex items-center text-white py-20 px-6 overflow-hidden">
+  <video
+    className="   w-full h-full object-cover"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source src="/videos/background.mp4" type="video/mp4" />
+  </video>
+
+ 
+
+  <div className="relative max-w-4xl mx-auto text-center z-10">
+    <h2 className="text-4xl md:text-5xl font-bold mb-4">
+      Empowering Your Digital Vision
+    </h2>
+    <p className="text-lg md:text-xl mb-8">
+      We build open-source solutions to grow your business digitally — web apps,
+      mobile apps, backend systems, and consultancy.
+    </p>
+    <a
+      href="/contact"
+      className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-full font-semibold"
+    >
+      Let's Connect
+    </a>
+  </div>
+</section> */}
+
+<section className="relative h-screen flex items-center justify-center text-white px-6 overflow-hidden">
+  {/* Background Video */}
+  <video
+    className="absolute top-0 left-0 w-full h-full object-cover z-10"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source src="/videos/background.mp4" type="video/mp4" />
+  </video>
+
+  {/* Optional dark overlay for readability */}
+  <div className="absolute inset-0 bg-black/50 -z-10"></div>
+
+  {/* Hero Content */}
+  <div className="relative max-w-4xl mx-auto text-center z-10">
+    <h2 className="text-4xl md:text-5xl font-bold mb-4">
+      Empowering Your Digital Vision
+    </h2>
+    <p className="text-lg md:text-xl mb-8">
+      We build open-source solutions to grow your business digitally — web apps,
+      mobile apps, backend systems, and consultancy.
+    </p>
+    <a
+      href="/contact"
+      className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-full font-semibold"
+    >
+      Let's Connect
+    </a>
+  </div>
+</section>
 
 
-      <section className="bg-gradient-to-r h-screen flex items-center  text-white py-20 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Empowering Your Digital Vision</h2>
-          <p className="text-lg md:text-xl mb-8">
-            We build open-source solutions to grow your business digitally — web apps, mobile apps, backend systems, and consultancy.
-          </p>
-          <a href="/contact" className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-full font-semibold">
-            Let's Connect
-          </a>
-        </div>
-      </section>
+
 <div className="py-10 text-center">
   <h1 className="text-2xl md:text-5xl font-bold text-white relative inline-block after:absolute after:content-[''] after:h-1 after:w-24 after:bg-yellow-400 after:left-1/2 after:-translate-x-1/2 after:-bottom-2">
     OUR SERVICES

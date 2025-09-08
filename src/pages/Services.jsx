@@ -34,7 +34,23 @@ const services = [
     description: "From MVP to scalable platform — get full-stack startup launch support.",
     icon: <FaLightbulb className="text-4xl text-orange-500 mb-4" />,
   },
+  {
+    title: "Social Media Optimization (SMO)",
+    description: "Boost your brand presence on Facebook, Instagram, LinkedIn & more with engaging strategies and campaigns.",
+    icon: <FaComments className="text-4xl text-pink-500 mb-4" />, // represents social interaction
+  },
+  {
+    title: "Search Engine Optimization (SEO)",
+    description: "Improve your Google ranking with keyword research, content strategy, and technical SEO practices.",
+    icon: <FaLaptopCode className="text-4xl text-green-700 mb-4" />, // could also use a search icon
+  },
+  {
+    title: "Search Engine Marketing (SEM)",
+    description: "Drive targeted traffic with Google Ads, PPC campaigns, and data-driven paid marketing strategies.",
+    icon: <FaLightbulb className="text-4xl text-indigo-600 mb-4" />, // represents ideas + campaigns
+  },
 ];
+
 
 const Services = () => {
   return (
